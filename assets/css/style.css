@@ -11,3 +11,28 @@ body{
     display: flex;
     min-height: 100vh;
 }
+.box{
+    background-color: cornsilk;
+    padding-top: 28px;
+    padding: 28px;
+}
+.box h2{
+    margin-bottom: 38px;
+    text-align: center;
+    color: darkblue;
+    font-size: 28px;
+    font-family: Arial Narrow;
+}
+input{
+    padding: 20px;
+    height: 55;
+    width: 450px;
+    user-select: none;
+    border-radius: 6.5px;
+    border: 2px solid rgb(12, 153, 225);
+    font-size: 24px;
+    outline: none;
+}
+input.placeholder{
+    font-size: 25px;
+}
