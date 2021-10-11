@@ -11,5 +11,12 @@ function genPassword(){
     }
     // now lets apply it.
     document.getElementById("password").value = password
-
 }
+// now lets activate the copy button.
+function copyPassword(){
+    var copyText = document.getElementById("password");
+    copyText.select();
+    copyText.setSelectionRange(0,988);
+    document.execCommand("copy");
+}
+
